@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRM.Playground.CRM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f428e6a4c1fc56468d63e688e005eef9d79ea9e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e61b53d79e245322c6b5777f39d6b07509508623")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRM.Playground.CRM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRM.Playground.CRM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
