@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XBV5lxcnhySwqmSMgOwtLFyAUQY29yYbbBO8uoavT7k=",
+  "Source": "CRM.Playground.APIGateway",
+  "BasePath": "_content/CRM.Playground.APIGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
