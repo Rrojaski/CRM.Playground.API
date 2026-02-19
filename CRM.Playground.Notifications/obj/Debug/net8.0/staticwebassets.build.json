@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QnOOU7OWQbaemC9McoUvx8WK5WpmZUkexh9DyrTXK/Y=",
+  "Source": "CRM.Playground.Notifications",
+  "BasePath": "_content/CRM.Playground.Notifications",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

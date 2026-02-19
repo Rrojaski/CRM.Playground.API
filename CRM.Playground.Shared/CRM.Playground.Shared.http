@@ -1,0 +1,6 @@
+@CRM.Playground.Shared_HostAddress = http://localhost:5186
+
+GET {{CRM.Playground.Shared_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZQ3DaI6YXnMffaybSAxCuErHGnpsiZxvc2XkEI1l2Xo=",
+  "Source": "CRM.Playground.Billing",
+  "BasePath": "_content/CRM.Playground.Billing",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

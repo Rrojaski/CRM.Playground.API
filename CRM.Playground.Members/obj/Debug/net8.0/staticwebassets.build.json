@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8e8NSBnyxQAfHRhUQyyvCFTAOgnr1eMVWJYHZ0ZGMC4=",
+  "Source": "CRM.Playground.Members",
+  "BasePath": "_content/CRM.Playground.Members",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,6 @@
+@CRM.Playground.Notifications_HostAddress = http://localhost:5199
+
+GET {{CRM.Playground.Notifications_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
