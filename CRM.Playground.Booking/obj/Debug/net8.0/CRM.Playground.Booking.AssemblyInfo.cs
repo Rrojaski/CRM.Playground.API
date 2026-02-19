@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRM.Playground.Booking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf827b382fd603b2ccc8a499ae61f27e81769bc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f428e6a4c1fc56468d63e688e005eef9d79ea9e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRM.Playground.Booking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRM.Playground.Booking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
