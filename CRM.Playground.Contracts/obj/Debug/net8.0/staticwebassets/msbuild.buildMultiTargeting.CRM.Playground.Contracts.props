@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\CRM.Playground.Contracts.props" />
-</Project>
