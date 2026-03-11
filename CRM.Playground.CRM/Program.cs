@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using MediatR;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,7 @@ builder.Services.AddDbContext<CRM.Playground.CRM.Infrastructure.Persistence.CrmD
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CRM.Playground.CRM.Application.Handlers.CreateLeadCommandHandler).Assembly));
 
 var app = builder.Build();
 
