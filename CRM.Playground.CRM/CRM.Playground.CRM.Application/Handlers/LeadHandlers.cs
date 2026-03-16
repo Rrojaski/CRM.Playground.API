@@ -93,8 +93,17 @@ public class GetAllLeadsQueryHandler : IRequestHandler<GetAllLeadsQuery, IEnumer
     public GetAllLeadsQueryHandler(CrmDbContext db) => _db = db;
     public async Task<IEnumerable<Lead>> Handle(GetAllLeadsQuery request, CancellationToken cancellationToken)
     {
+        var query = _db.Leads.AsQueryable();
         if (request.TenantId.HasValue)
-            return await _db.Leads.Where(x => x.TenantId == request.TenantId.Value).ToListAsync(cancellationToken);
-        return await _db.Leads.ToListAsync(cancellationToken);
+            query = query.Where(x => x.TenantId == request.TenantId.Value);
+        if (!string.IsNullOrEmpty(request.Stage))
+            query = query.Where(x => x.Stage == request.Stage);
+        if (request.AssignedTo.HasValue)
+            query = query.Where(x => x.AssignedTo == request.AssignedTo);
+        if (request.CreatedFrom.HasValue)
+            query = query.Where(x => x.CreatedAt >= request.CreatedFrom.Value);
+        if (request.CreatedTo.HasValue)
+            query = query.Where(x => x.CreatedAt <= request.CreatedTo.Value);
+        return await query.ToListAsync(cancellationToken);
     }
 }

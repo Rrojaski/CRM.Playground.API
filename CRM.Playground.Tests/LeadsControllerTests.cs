@@ -27,7 +27,7 @@ public class LeadsControllerTests
     {
         _mediatorMock.Setup(m => m.Send(It.IsAny<GetAllLeadsQuery>(), It.IsAny<CancellationToken>()))
             .ReturnsAsync(new List<Lead>());
-        var result = await _controller.GetAll(null);
+        var result = await _controller.GetAll(null, null, null, null, null);
         Assert.IsType<OkObjectResult>(result.Result);
     }
 
