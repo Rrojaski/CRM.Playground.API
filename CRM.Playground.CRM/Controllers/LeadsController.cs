@@ -22,9 +22,21 @@ public class LeadsController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Lead>>> GetAll([FromQuery] Guid? tenantId)
+    public async Task<ActionResult<IEnumerable<Lead>>> GetAll([
+        FromQuery] Guid? tenantId,
+        [FromQuery] string? stage,
+        [FromQuery] Guid? assignedTo,
+        [FromQuery] DateTime? createdFrom,
+        [FromQuery] DateTime? createdTo)
     {
-        var leads = await _mediator.Send(new GetAllLeadsQuery { TenantId = tenantId });
+        var leads = await _mediator.Send(new GetAllLeadsQuery
+        {
+            TenantId = tenantId,
+            Stage = stage,
+            AssignedTo = assignedTo,
+            CreatedFrom = createdFrom,
+            CreatedTo = createdTo
+        });
         return Ok(leads);
     }
 
