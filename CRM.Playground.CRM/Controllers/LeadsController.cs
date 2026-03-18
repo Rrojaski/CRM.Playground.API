@@ -3,7 +3,6 @@ using CRM.Playground.CRM.Application.Commands;
 using CRM.Playground.CRM.Application.Queries;
 using CRM.Playground.CRM.Application.Validators;
 using MediatR;
-using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CRM.Playground.CRM.Controllers;
