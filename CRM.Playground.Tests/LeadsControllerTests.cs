@@ -5,11 +5,6 @@ using CRM.Playground.CRM.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
-using Xunit;
 
 public class LeadsControllerTests
 {
